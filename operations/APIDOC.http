@@ -1,0 +1,93 @@
+###
+POST  http://127.0.0.1:8000/add/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":200
+}
+
+
+###
+POST http://127.0.0.1:8000/sub/
+Content-Type: application/json
+
+{
+
+    "num1":200,
+    "num2":400
+
+}
+
+###
+POST http://127.0.0.1:8000/square/
+Content-Type: application/json
+
+{
+    "side":12
+}
+
+###
+post http://127.0.0.1:8000/rectangle/
+Content-Type: application/json
+
+{
+    "length":10,
+    "width":10
+}
+
+###
+post http://127.0.0.1:8000/triangle/
+Content-Type: application/json
+
+{
+    "base":5,
+    "height":10
+}
+
+
+###
+post http://127.0.0.1:8000/circle/
+Content-Type: application/json
+
+{
+    "radius":4
+}
+
+###
+post http://127.0.0.1:8000/parallelogram/
+Content-Type: application/json
+
+{
+    "base":4,
+    "height":6
+}
+
+###
+post http://127.0.0.1:8000/trapezium/
+Content-Type: application/json
+
+{
+    "side1":4,
+    "side2":8,
+    "height":10
+}
+
+###
+post http://127.0.0.1:8000/rhombus/
+Content-Type: application/json
+
+{
+    "base":6,
+    "height":10
+}
+
+
+###
+post http://127.0.0.1:8000/ellipse/
+Content-Type: application/json
+
+{
+    "semi-major":10,
+    "semi-minor":5
+}
